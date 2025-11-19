@@ -46,20 +46,21 @@ This project is designed to ask a numbrer between 1 and 10 (both included), your
 [Link to the project](https://github.com/Erikgavs/proyectos_rust/tree/main/random_num)
 
 🧠 **Used rust elements**
-| Elemento de Rust                        | Tipo / Categoría               |
-| --------------------------------------- | ------------------------------ |
-| `use rand::Rng;`                        | Declaración `use`              |
-| `use std::io;`                          | Declaración `use`              |
-| `fn main() { ... }`                     | Función principal              |
-| `let mut rng = rand::thread_rng();`     | Variable mutable               |
-| `let numero = rng.gen_range(1..=10);`   | Variable                       |
-| `loop { ... }`                          | Bucle infinito                 |
-| `println!(...)`                         | Macro de impresión             |
-| `let mut respuesta = String::new();`    | Variable mutable               |
-| `io::stdin().read_line(&mut respuesta)` | Entrada estándar               |
-| `respuesta.trim().parse().expect(...)`  | Conversión / Manejo de errores |
-| `if ... { ... } else { ... }`           | Condicional                    |
-| `break`                                 | Salida de bucle                |
+| Rust Element                            | Type / Category             |
+| --------------------------------------- | --------------------------- |
+| `use rand::Rng;`                        | `use` declaration           |
+| `use std::io;`                          | `use` declaration           |
+| `fn main() { ... }`                     | Main function               |
+| `let mut rng = rand::thread_rng();`     | Mutable variable            |
+| `let numero = rng.gen_range(1..=10);`   | Variable                    |
+| `loop { ... }`                          | Infinite loop               |
+| `println!(...)`                         | Print macro                 |
+| `let mut respuesta = String::new();`    | Mutable variable            |
+| `io::stdin().read_line(&mut respuesta)` | Standard input              |
+| `respuesta.trim().parse().expect(...)`  | Conversion / Error handling |
+| `if ... { ... } else { ... }`           | Conditional                 |
+| `break`                                 | Loop exit                   |
+
 
 
 
