@@ -1,4 +1,3 @@
-
 # 🦀 Rust Projects
 This repository is intended to save my firsts projects with rust and use it in future projects
 
@@ -10,8 +9,7 @@ This repository its also intended to allow begginers to practice rust with small
 ### 👋 Greeter
 
 This mini project is designed to reply to three commands "hello", "number", "bye".
-
-when we run one of these commands, with a match we execute different actions.
+When we run one of these commands, with a match we execute different actions.
 
 
 [Link to project](https://github.com/Erikgavs/proyectos_rust/tree/main/saludador)
@@ -40,7 +38,31 @@ when we run one of these commands, with a match we execute different actions.
 | Errors / basic handling | `.expect("message")`              |
 
 
+
+### ♦️ Random Number
+
+This project is designed to ask a numbrer between 1 and 10 (both included), your mission is to match the number with the script
+
+[Link to the project](https://github.com/Erikgavs/proyectos_rust/tree/main/random_num)
+
+🧠 **Used rust elements**
+| Elemento de Rust                        | Tipo / Categoría               |
+| --------------------------------------- | ------------------------------ |
+| `use rand::Rng;`                        | Declaración `use`              |
+| `use std::io;`                          | Declaración `use`              |
+| `fn main() { ... }`                     | Función principal              |
+| `let mut rng = rand::thread_rng();`     | Variable mutable               |
+| `let numero = rng.gen_range(1..=10);`   | Variable                       |
+| `loop { ... }`                          | Bucle infinito                 |
+| `println!(...)`                         | Macro de impresión             |
+| `let mut respuesta = String::new();`    | Variable mutable               |
+| `io::stdin().read_line(&mut respuesta)` | Entrada estándar               |
+| `respuesta.trim().parse().expect(...)`  | Conversión / Manejo de errores |
+| `if ... { ... } else { ... }`           | Condicional                    |
+| `break`                                 | Salida de bucle                |
+
+
+
 ## 🧙‍♂️ Authors 
 
 - [@Erikgavs](https://www.github.com/Erikgavs)
-
