@@ -1,10 +1,8 @@
 
-# 🦀 Proyectos de Rust
+# 🦀 Rust Projects
+This repository is intended to save my firsts projects with rust and use it in future projects
 
-Este repositorio está destinado a guardar mis primeros proyectos con rust para así poder recurrir a mi propio código en futuros proyectos. 
-
-También está destinado a que principantes puedan practicar con ejercicios divertidos
-
+This repository its also intended to allow begginers to practice rust with small projects
 
 
 ## 📖 Proyectos
