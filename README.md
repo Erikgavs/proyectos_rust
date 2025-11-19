@@ -2,42 +2,42 @@
 # 🦀 Rust Projects
 This repository is intended to save my firsts projects with rust and use it in future projects
 
-This repository its also intended to allow begginers to practice rust with small projects
+This repository its also intended to allow begginers to practice rust with small projects.
 
 
-## 📖 Proyectos
+## 📖 Projects
 
-### 👋 Saludador
+### 👋 Greeter
 
-Este mini proyecto está diseñado para responder a tres comandos, "hola", "numero", "adios"
+This mini project is designed to reply to three commands "hello", "number", "bye".
 
-Cuando se pasa alguno de los siguientes comandos, con un match se ejecutan una serie de acciones.
+when we run one of these commands, with a match we execute different actions.
 
-[Link al proyecto](https://github.com/Erikgavs/proyectos_rust/tree/main/saludador)
 
-🧠 **Elementos usados del lenguaje**
+[Link to project](https://github.com/Erikgavs/proyectos_rust/tree/main/saludador)
 
-| Clase / Categoría       | Elemento Rust                     |
+🧠 **Used rust elements**
+
+| Class / Category        | Rust Element                      |
 | ----------------------- | --------------------------------- |
 | Imports                 | `use std::io`                     |
 | Macros                  | `println!`                        |
-| Variables               | `let, let mut`                  |
+| Variables               | `let, let mut`                    |
 | Strings                 | `String::new()`                   |
-| Entrada de usuario      | `io::stdin().read_line(&mut var)` |
-| Métodos de strings      | `trim()`                          |
-| Métodos de strings      | `split_whitespace()`              |
-| Vectores                | `Vec<&str>`                       |
-| Vectores / métodos      | `.collect()`                      |
-| Vectores / métodos      | `.last()`                         |
-| Control de flujo        | `loop`                            |
-| Control de flujo        | `match`                           |
-| Tipos / parseo          | `parse::<f32>()`                  |
+| User input              | `io::stdin().read_line(&mut var)` |
+| String methods          | `trim()`                          |
+| String methods          | `split_whitespace()`              |
+| Vectors                 | `Vec<&str>`                       |
+| Vector methods          | `.collect()`                      |
+| Vector methods          | `.last()`                         |
+| Control flow            | `loop`                            |
+| Control flow            | `match`                           |
+| Types / parsing         | `parse::<f32>()`                  |
 | Strings / chars         | `.chars().next().unwrap()`        |
-| Operadores aritméticos  | `+ - * /`                         |
-| Control de flujo        | `continue`                        |
-| Control de flujo        | `break`                           |
-| Errores / manejo básico | `.expect("mensaje")`              |
-
+| Arithmetic operators    | `+ - * /`                         |
+| Control flow            | `continue`                        |
+| Control flow            | `break`                           |
+| Errors / basic handling | `.expect("message")`              |
 
 
 ## 🧙‍♂️ Authors 
