@@ -61,6 +61,31 @@ This project is designed to ask a numbrer between 1 and 10 (both included), your
 | `if ... { ... } else { ... }`           | Conditional                 |
 | `break`                                 | Loop exit                   |
 
+### 🫸 Word Splitter 
+This project is designed to ask a phrase to the user and split the phrase using the method split_whitespace()
+
+[Link to project](https://github.com/Erikgavs/proyectos_rust/tree/main/word_splitter/word_splitter)
+
+🧠 **Used rust elements**
+| Element                            | Type / Category      |
+| ---------------------------------- | -------------------- |
+| `use std::io;`                     | Import               |
+| `fn main()`                        | Function definition  |
+| `loop { ... }`                     | Loop                 |
+| `println!()`                       | Macro                |
+| `let mut u_entry = String::new();` | Variable declaration |
+| `io::stdin()`                      | Function call        |
+| `.read_line(&mut u_entry)`         | Method call          |
+| `.expect("...")`                   | Error handling       |
+| `.trim()`                          | Method call          |
+| `.split_whitespace()`              | Method call          |
+| `Vec<&str>`                        | Data type            |
+| `.collect()`                       | Iterator method      |
+| `match try_again`                  | Match expression     |
+| `"yes" => { ... }`                 | Match arm            |
+| `"no" => { ... }`                  | Match arm            |
+| `_ => { ... }`                     | Catch-all match arm  |
+| `break`                            | Loop control         |
 
 
 
