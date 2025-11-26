@@ -1,3 +1,5 @@
+mod name;
+
 use std::io;
 use std::thread;
 use std::time::Duration;
@@ -82,6 +84,42 @@ fn main() {
                                                 inventory.push("Phantom Sword".to_string());
                                                 println!("This is your inventory now: {:?}", inventory);
                                                 println!("Exploring the area, you also found a chest but you don't have the key ");
+
+                                            }
+
+                                            "find" => {
+                                                println!("You decided to continue searching the end of the forest, doing this, you found a extrange wizzard, do you want to talk with him? \n\n yes? command: yes \n no? command: no");
+                                                let mut response5 = String::new();
+                                                io::stdin()
+                                                    .read_line(&mut response5)
+                                                    .expect("Error reading the input");
+                                                let response5 = response5.trim();
+                                                match response5 {
+                                                    "yes" => {
+                                                        println!("You decided to talk with the wizzard but... he don't whant to talk with you, take the option no ")
+                                                    }
+
+                                                    "no" => {
+                                                        println!("Ohhh... the wizzard seems sad, your such a bad person, you are arriving finally to the end of the forest but you found 3 dark elfs, you need to kill them to escape, what do you want to do? \n\n fight? command: fight \n run? command: run");
+                                                        let mut response6 = String::new();
+                                                        io::stdin()
+                                                            .read_line(&mut response6)
+                                                            .expect("Error reading the input");
+                                                        let response6 = response6.trim();
+                                                        match response6 {
+                                                            "fight" => {
+                                                                println!("GOOD JOB!, now, three dice's will be thrown (from 1 to 20), if the result is 40 or more, you will kill them, either you will die")
+                                                            }
+                                                            _=>{
+                                                                println!("invalid input, try again")
+                                                            }
+                                                        }
+                                                    }
+
+                                                    _=>{
+                                                        println!("Invalid input, try again")
+                                                    }
+                                                }
 
                                             }
 
