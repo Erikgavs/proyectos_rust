@@ -29,6 +29,7 @@ fn app() -> Element {
                         }
                     }
                     Button{
+                        onpress: move |_| show_popup.set(false),
                         label{
                             "New note"
                         }
